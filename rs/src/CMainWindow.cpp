@@ -32,18 +32,18 @@
 #include "CSala.h"
 #include "CReserva.h"
 
-#include <QtGui/QStyleFactory>
-#include <QtGui/QPrintDialog>
-#include <QtGui/QHeaderView>
-#include <QtGui/QScrollBar>
-#include <QtGui/QClipboard>
-#include <QtGui/QDesktopServices>
-#include <QtCore/QUrl>
-#include <QtCore/QSettings>
-#include <QtCore/QTranslator>
-#include <QtCore/QProcess>
-#include <QtCore/QDir>
-#include <QtGui/QInputDialog>
+#include <QStyleFactory>
+#include <QPrintDialog>
+#include <QHeaderView>
+#include <QScrollBar>
+#include <QClipboard>
+#include <QDesktopServices>
+#include <QUrl>
+#include <QSettings>
+#include <QTranslator>
+#include <QProcess>
+#include <QDir>
+#include <QInputDialog>
 
 static const int PSALA_COL_ROLE = 1025;
 static const int TABLE_ROW_HEIGHT = 30;
@@ -848,7 +848,7 @@ void CMainWindow::on_actionOutro_triggered()
 {
 	bool ok = true;
 
-	int interval = QInputDialog::getInteger ( this, tr ( "Intervalo" ), tr ( "Intervalo de dias" ),
+    int interval = QInputDialog::getInt( this, tr ( "Intervalo" ), tr ( "Intervalo de dias" ),
 												m_dayInterval, 1, 366, 1, &ok );
 
 	if ( ok )

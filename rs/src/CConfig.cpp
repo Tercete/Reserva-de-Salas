@@ -22,8 +22,8 @@
 
 #include "CConfig.h"
 #include <string>
-#include <QtCore/QSettings>
-#include <QtCore/QObject>
+#include <QSettings>
+#include <QObject>
 
 #ifdef __unix__
 #include <unistd.h>

@@ -23,7 +23,7 @@
 #include "CSalasItem.h"
 #include "CMainWindow.h"
 
-#include <QtGui/QHeaderView>
+#include <QHeaderView>
 
 CSalas::CSalas ( CMainWindow *_form, CData *_data ) :
 		QDialog ( _form ),

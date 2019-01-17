@@ -20,7 +20,7 @@
  */
 
 #include "CAreas.h"
-#include <QtGui/QMessageBox>
+#include <QMessageBox>
 
 CAreas::CAreas ( CData* _data, CMainWindow* _form ) :
 		QDialog ( _form ),

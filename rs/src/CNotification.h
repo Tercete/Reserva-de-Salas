@@ -22,14 +22,14 @@
 #ifndef __INCLUDE_CNOTIFICATION_H
 #define __INCLUDE_CNOTIFICATION_H
 
-#include <QtCore/QObject>
+#include <QObject>
 #include "ibpp.h"
 #include <string>
 
 #ifdef __ASYNC_EVENTS
-#include <QtCore/QMutex>
+#include <QMutex>
 #else
-#include <QtCore/QTimer>
+#include <QTimer>
 #endif
 
 class CNotification: public QObject, public IBPP::EventInterface

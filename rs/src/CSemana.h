@@ -27,7 +27,7 @@
 #include "CReserva.h"
 #include "rowRESERVA.h"
 
-#include <QtCore/QDate>
+#include <QDate>
 
 #include <assert.h>
 

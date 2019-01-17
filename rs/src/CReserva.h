@@ -23,13 +23,13 @@
 
 #include "CData.h"
 
-#include <QtCore/QList>
-#include <QtGui/QMouseEvent>
-#include <QtGui/QPaintEvent>
-#include <QtCore/QDate>
-#include <QtGui/QPalette>
-#include <QtGui/QLabel>
-#include <QtGui/QLayout>
+#include <QList>
+#include <QMouseEvent>
+#include <QPaintEvent>
+#include <QDate>
+#include <QPalette>
+#include <QLabel>
+#include <QLayout>
 
 class CReserva;
 class CReservaList;

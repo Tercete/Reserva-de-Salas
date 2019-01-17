@@ -20,7 +20,7 @@
  */
 #include "CSala.h"
 #include "main.h"
-#include <QtCore/QObject>
+#include <QObject>
 
 CSala::CSala ( CSalaList *_owner ) :
 		m_owner ( _owner ),

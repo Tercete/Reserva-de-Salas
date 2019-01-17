@@ -26,10 +26,10 @@
 #include "CMainWindow.h"
 #include "CReserva.h"
 
-#include <QtGui/QFrame>
-#include <QtGui/QLayout>
-#include <QtGui/QLabel>
-#include <QtGui/QPainter>
+#include <QFrame>
+#include <QLayout>
+#include <QLabel>
+#include <QPainter>
 
 class rowRESERVA;
 class CReserva;

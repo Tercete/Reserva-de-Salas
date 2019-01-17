@@ -23,12 +23,12 @@
 #define __INCLUDE_CDATA_H
 
 #include <ibpp.h>
-#include <QtCore/QList>
-#include <QtCore/QHash>
-#include <QtCore/QString>
-#include <QtGui/QPalette>
-#include <QtCore/QDate>
-#include <QtCore/QTime>
+#include <QList>
+#include <QHash>
+#include <QString>
+#include <QPalette>
+#include <QDate>
+#include <QTime>
 
 
 #include "CNotification.h"

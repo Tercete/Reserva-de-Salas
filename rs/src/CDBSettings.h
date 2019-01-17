@@ -22,7 +22,7 @@
 #ifndef CDBSETTINGS_H_
 #define CDBSETTINGS_H_
 
-#include <QtGui/QDialog>
+#include <QDialog>
 #include "../obj/ui_frdbsettings.h"
 #include "CMainWindow.h"
 

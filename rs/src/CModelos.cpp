@@ -24,8 +24,8 @@
 #include "CConfig.h"
 #include "CModelosItem.h"
 
-#include <QtCore/QFile>
-#include <QtCore/QSettings>
+#include <QFile>
+#include <QSettings>
 
 void readString ( Statement *stmt, const int col, QString &_value )
 {

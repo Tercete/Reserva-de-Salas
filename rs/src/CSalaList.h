@@ -25,7 +25,7 @@
 
 #include <ibpp.h>
 
-#include <QtCore/QMap>
+#include <QMap>
 
 class CSala;
 

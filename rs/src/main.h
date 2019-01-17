@@ -24,17 +24,17 @@
 
 #include "CData.h"
 
-#include <QtCore/Qt>
-#include <QtCore/QObject>
-#include <QtCore/QString>
-#include <QtCore/QDate>
-#include <QtCore/QTime>
-#include <QtCore/QList>
-#include <QtGui/QApplication>
-#include <QtGui/QMessageBox>
-#include <QtCore/QAbstractTableModel>
-#include <QtCore/QFile>
-#include <QtCore/QSettings>
+#include <Qt>
+#include <QObject>
+#include <QString>
+#include <QDate>
+#include <QTime>
+#include <QList>
+#include <QApplication>
+#include <QMessageBox>
+#include <QAbstractTableModel>
+#include <QFile>
+#include <QSettings>
 #include <iostream>
 
 class CSalas;

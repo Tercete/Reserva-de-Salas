@@ -20,7 +20,7 @@
  */
 
 #include "CNotification.h"
-#include <QtCore/QTimer>
+#include <QTimer>
 
 CNotification::CNotification ( QObject * _parent ) :
 		QObject ( _parent ),

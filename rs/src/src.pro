@@ -128,9 +128,9 @@ macx {
 	LIBS += /Library/Frameworks/Firebird.framework/Libraries/libfbclient.dylib
 
 }
-QT += core \
-gui
-INCLUDEPATH += ../ibpp \
+QT += core gui network widgets printsupport
+
+INCLUDEPATH += ../ibpp
 .
 LIBS += ../obj/libibpp.a
 

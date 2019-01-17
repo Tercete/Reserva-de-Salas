@@ -22,7 +22,7 @@
 #include "CUsuariosModel.h"
 #include "CUsuarioDelegate.h"
 
-#include <QtCore/QStringList>
+#include <QStringList>
 
 CUsuariosModel::CUsuariosModel ( CData* _data ) :
 		QAbstractTableModel ( _data ),

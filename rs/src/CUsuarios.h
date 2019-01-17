@@ -28,7 +28,7 @@
 #include "CUsuariosModel.h"
 #include "CUsuarioDelegate.h"
 
-#include <QtGui/QIntValidator>
+#include <QIntValidator>
 
 
 class CUsuarios : public QDialog, public Ui::frUsers

@@ -28,10 +28,10 @@
 
 #include "main.h"
 
-#include <QtCore/QSettings>
-#include <QtGui/QMessageBox>
-#include <QtGui/QMouseEvent>
-#include <QtGui/QPainter>
+#include <QSettings>
+#include <QMessageBox>
+#include <QMouseEvent>
+#include <QPainter>
 #include <string>
 
 #include <iostream>
@@ -223,7 +223,7 @@ QStringList* CData::getAreas()
 		stmt->Get ( 2, s );
 
 		m_areasId->append ( id );
-		m_areas->append ( QString::fromAscii ( s.c_str() ) );
+        m_areas->append ( QString( s.c_str() ) );
 	}
 
 	stmt->Close();

@@ -27,7 +27,7 @@
 #include "CData.h"
 #include "CSala.h"
 
-#include <QtGui/QIntValidator>
+#include <QIntValidator>
 
 class CSalasItem: public QDialog, public Ui::SalasItem
 {

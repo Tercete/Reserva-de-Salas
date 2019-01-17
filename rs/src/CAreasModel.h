@@ -22,7 +22,7 @@
 #ifndef CAREASMODEL_H_
 #define CAREASMODEL_H_
 
-#include <QtCore/QAbstractTableModel>
+#include <QAbstractTableModel>
 #include "CData.h"
 
 class CAreasModel: public QAbstractTableModel
